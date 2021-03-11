@@ -1,0 +1,43 @@
+.login-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -1px 4px 20px -6px rgb(0, 0, 0);
+    width: 400px;
+    height: 300px;
+
+}
+
+.image{
+    display: flex;
+    /* background-color: brown; */
+    height: 200px;
+}
+
+.signin{
+    display: flex;
+    font-size: large;
+    font-weight: bold;
+    padding-bottom: 10px;
+    /* background-color: blueviolet; */
+}
+
+.button{
+    display: flex;
+    padding: 10px 0px;
+    /* background-color: cadetblue; */
+}
+
+.button > Button{
+    text-transform: inherit !important;
+    background-color: lightslategrey;
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+
+}
+
+.button > Button:hover{
+    background-color: seagreen;
+}
