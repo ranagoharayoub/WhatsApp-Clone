@@ -11,6 +11,7 @@
 
 .image{
     display: flex;
+    justify-content: center;
     /* background-color: brown; */
     height: 200px;
 }
